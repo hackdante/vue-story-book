@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+body {
+  background: $dark;
+  font-family: "Lato", sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#app {
+    display: flex;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+

@@ -1,0 +1,28 @@
+.btn {
+  &_container {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    border: none;
+    color: $light;
+    cursor: pointer;
+
+    outline: none;
+
+    &-dark {
+      background: $primary;
+    }
+
+    &-light {
+      background: $light;
+    }
+
+    &-flat {
+      background: none;
+    }
+
+    &-default {
+      background: $secondary;
+    }
+  }
+}
